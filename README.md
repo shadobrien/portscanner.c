@@ -8,4 +8,6 @@ To use portscanner, run the following:<br/>
 ./portscanner (target_IP) (beginning port) (ending port) (protocol)
   
 Example command to scan 127.0.0.1 at ports 1 through 1023 using TCP:<br/>
-./portscanner 127.0.0.1 1 1023 TCP
+./portscanner 127.0.0.1 1 1023 TCP<br/>
+
+Note: you may have to run as root.
