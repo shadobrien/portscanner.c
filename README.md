@@ -2,7 +2,7 @@
 Portscanner.c can scan for running services on a range of ports on a single host. It uses either TCP or UDP.
 
 To compile portscanner.c, run the following:<br/>
-gcc portscanner.c -o portscanner -pthread -g -O1
+gcc portscanner.c -o portscanner
 
 To use portscanner, run the following:<br/>
 ./portscanner (target_IP) (beginning port) (ending port) (protocol)
